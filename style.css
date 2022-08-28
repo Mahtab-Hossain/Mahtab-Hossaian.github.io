@@ -2,3 +2,17 @@
     background-color: aqua;
     padding: 10px,20px;
 }
+body{
+    background-color: black;
+}
+h1{
+    color: rgb(206, 124, 17);
+}
+footer{
+    color: blueviolet;
+}
+.ab{
+    background-color: azure;
+    box-sizing: border-box;
+    
+}
