@@ -1,5 +1,5 @@
 .bh{
-    background-color: aqua;
+    background-color: rgb(132, 202, 202);
     padding: 10px,20px;
 }
 body{
@@ -7,6 +7,11 @@ body{
 }
 h1{
     color: rgb(206, 124, 17);
+    border: 23px;
+    border-color: aquamarine;
+    padding-block: 10px;
+    padding-left: 50px;
+    padding: center;
 }
 footer{
     color: blueviolet;
@@ -15,4 +20,8 @@ footer{
     background-color: azure;
     box-sizing: border-box;
     
+}
+section{
+    padding-block: 40px;
+    padding-left: 30px;
 }
