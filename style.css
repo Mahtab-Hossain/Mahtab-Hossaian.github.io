@@ -1,6 +1,7 @@
-.bh{
-    background-color: rgb(132, 202, 202);
+bh{
+    background-color: rgb(223, 0, 0);
     padding: 10px,20px;
+    font-style: italic;
 }
 body{
     background-color: rgb(255, 255, 255);
@@ -10,12 +11,7 @@ p,h1{
     font-size: 40px;
     text-align: center;
 }
-p{
-    color: rgb(7, 7, 14);
-    font-size: 20px;
-    width: 200px;
-    text-align: center;
-}
+
 footer{
     color: blueviolet;
 }
@@ -24,7 +20,23 @@ footer{
     box-sizing: border-box;
     
 }
-section{
-    padding-block: 40px;
-    padding-left: 30px;
+.section1{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: brown;
+    opacity: .5;
+    text-align: center;
+}
+.section2{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: brown;
+    opacity: .5;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+nav.li{
+    color: blue;
 }
