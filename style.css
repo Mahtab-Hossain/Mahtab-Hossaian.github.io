@@ -37,6 +37,22 @@ footer{
 h2{
     text-align: center;
 }
-nav.li{
+nav li:nth-child(odd){
     color: blue;
+    list-style: none;
+    background-color: cadetblue;
+}
+a:link, a:visited {
+    text-decoration: none;
+    background-color: aquamarine;
+    border: 3px solid;
+    color: black;
+    display: block;
+    text-align: center;
+    width: auto;
+    margin-bottom: 1px;
+}
+a:hover, a:active{
+    background-color: blueviolet;
+    color: coral;
 }
