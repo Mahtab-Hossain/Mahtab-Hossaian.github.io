@@ -3,21 +3,24 @@
     padding: 10px,20px;
 }
 body{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
-h1{
-    color: rgb(206, 124, 17);
-    border: 23px;
-    border-color: aquamarine;
-    padding-block: 10px;
-    padding-left: 50px;
-    padding: center;
+p,h1{
+    color: rgb(33, 206, 17);
+    font-size: 40px;
+    text-align: center;
+}
+p{
+    color: rgb(7, 7, 14);
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
 }
 footer{
     color: blueviolet;
 }
 .ab{
-    background-color: azure;
+    background-color: rgb(134, 230, 230);
     box-sizing: border-box;
     
 }
