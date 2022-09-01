@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
 bh{
     background-color: rgb(223, 0, 0);
     padding: 10px,20px;
@@ -6,8 +11,7 @@ bh{
 body{
     background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+    
 }
 h1{
     color: rgb(69, 134, 64);
