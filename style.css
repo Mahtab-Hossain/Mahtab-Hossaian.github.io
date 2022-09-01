@@ -19,12 +19,17 @@ h1{
     text-align: center;
 }
 p{
-    color: rgb(72, 79, 90);
-    font-size: 16px;
+    color: rgb(70, 19, 19);
+    /* font-size: 16px;
     text-align: justify;
     padding: 10px;
     margin: 5px;
-    width: auto;
+    background-image: url(/mat1.jpg);
+    border: 5px solid rgb(185, 4, 4); */
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+
 }
 footer{
     color: blueviolet;
@@ -70,4 +75,22 @@ a:link, a:visited {
 a:hover, a:active{
     background-color: rgb(130, 80, 177);
     color: rgb(223, 66, 9);
+}
+#p1{
+    background-color: aqua;
+    float: right;
+}
+#p2{
+    background-color: coral;
+    
+}
+#p3{
+    background-color: blue;
+
+}
+#p4{
+    background-color: crimson;
+}
+#da{
+    background-color: rgb(33, 153, 113);
 }
