@@ -20,16 +20,17 @@ h1{
     text-align: center;
 }
 p{
-    color: rgb(70, 19, 19);
+    color: rgb(8, 3, 3);
     /* font-size: 16px;
     text-align: justify;
     padding: 10px;
     margin: 5px;
     background-image: url(/mat1.jpg);
     border: 5px solid rgb(185, 4, 4); */
-    width: 50%;
-    /* border: 3px solid black; */
-    float: left;
+    /* width: 50%; */
+    border: 3px solid black;
+    /* float: left; */
+    margin-bottom: 15px;
 }
 footer{
     color: blueviolet;
@@ -78,41 +79,39 @@ a:hover, a:active{
     color: rgb(223, 66, 9);
 }
 #p1{
-    /* background-color: aqua; */
-    
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
     
 }
 #p2{
-    /* background-color: coral; */
+    background-color: blue;
+    width: 50px;
+    height: 50px;
     
 
 }
-#p3{
-    /* background-color: blue; */
-    
 
+#ph{
+    margin-bottom: 40px;
 }
-#p4{
-    background-color: crimson;
-
+/* large device */
+@media(min-width: 1200px) {
+    #p1{
+        width: 80%;
+    }
+    #p2{
+        width: 150px;
+        height: 150px;
+    }
 }
-#da{
-    /* background-color: rgb(33, 153, 113);
-    */
-
-}
-section{
-    clear: left;
-}
-.const{
-    
-    text-decoration: none;
-    background-color: aquamarine;
-    border: 3px solid;
-    color: black;
-    display: block;
-    text-align: center;
-    width: auto;
-    margin-bottom: 1px;
-        
+/* medium device */
+@media(min-width: 992px) and (max-width: 1199){
+    #p1{
+        width: 50%;
+    }
+    #p2{
+        width: 100px;
+        height: 100px;
+    }
 }
