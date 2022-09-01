@@ -5,13 +5,18 @@ bh{
 }
 body{
     background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
 }
-p,h1{
-    color: rgb(33, 206, 17);
-    font-size: 40px;
+h1{
+    color: rgb(69, 134, 64);
+    font-size: 16px;
     text-align: center;
 }
-
+p{
+    color: rgb(72, 79, 90);
+    font-size: 16px;
+    text-align: justify;
+}
 footer{
     color: blueviolet;
 }
