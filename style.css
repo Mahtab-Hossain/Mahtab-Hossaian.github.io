@@ -173,6 +173,20 @@ a:hover, a:active{
         width: 100%;
     }
  }
- 
+ .myCan{
+    width: 200px;
+    height: 80px;
+    border: 3px solid black;
+    background-color: aqua;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+ }
+ .myCana:hover{
+    color: rgb(231, 223, 223);
+    will-change:contents;
+ }
 
 
