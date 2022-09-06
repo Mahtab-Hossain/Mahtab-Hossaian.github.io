@@ -182,9 +182,17 @@ a:hover, a:active{
     font-weight: bold;
     position: relative;
  }
- .myCana:hover{
+ /* .myCana:hover{
     color: rgb(3, 1, 1);
     will-change:contents;
- }
-
+ } */ 
+ canvas{
+    padding-left: auto;
+    padding-right: auto;
+    margin: auto;
+    width: auto;
+    display: block;
+    position: relative;
+    z-index: -1;
+}
 
