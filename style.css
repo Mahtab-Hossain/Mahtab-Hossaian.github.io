@@ -95,8 +95,6 @@ a:hover, a:active{
     }
     .col-lg-1{
         width: 8.33%;
-        
-
     }
     .col-lg-2{
         width: 16.66%;
@@ -136,7 +134,7 @@ a:hover, a:active{
     .col-md-5,.col-md-6,.col-md-7,.col-md-8,
     .col-md-9,.col-md-10,.col-md-11,.col-md-12{
         float: left;
-        border: 1px solid blueviolet;
+        border: 3px solid blueviolet;
     }
     .col-md-1{
         width: 8.33%;
@@ -173,7 +171,7 @@ a:hover, a:active{
         width: 100%;
     }
  }
- /* .myCan{
+ .myCan{
     width: 200px;
     height: 80px;
     border: 3px solid black;
@@ -185,8 +183,8 @@ a:hover, a:active{
     position: relative;
  }
  .myCana:hover{
-    color: rgb(231, 223, 223);
+    color: rgb(3, 1, 1);
     will-change:contents;
- } */
+ }
 
 
